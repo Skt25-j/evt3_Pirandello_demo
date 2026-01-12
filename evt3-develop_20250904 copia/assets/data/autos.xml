@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+                <title type="main">Autos</title>
+                <title type="sub">Edizione digitale</title>
+                <author xml:id="US">Stefano Tuscano</author>
+                <respStmt>
+                    <resp>Edizione critica e codifica di:</resp>
+                    <name xml:id="ST">Sara Tavarnesi</name>
+                </respStmt>
+        </titleStmt>
+            <editionStmt>
+                <edition>
+                    <interpGrp>
+                        <interp xml:id="altVariant">Varianti alternative.</interp>
+                    </interpGrp>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Archivio Stefano Tuscano</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="MS_Autos">Manoscritto di Autos <msDesc>
+                            <msIdentifier>
+                                <settlement>Pienza</settlement>
+                                <repository>Archivio Stefano Tuscano presso Fondazione San Carlo Borromeo</repository>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="Autos">Edizione <emph rend="italic">Autos</emph></witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation corresp="#Autos" resp="#ST">
+                <listChange ordered="true">
+                    <change xml:id="strato-0">Stesura base del testo, in inchiostro nero-marrone; presenza di varianti
+                        immediate</change>
+                    <change xml:id="strato-1">Primo strato di varianti e correzioni apportate con penna ocra o penna del testo base scarica?</change><!--Da come scrive si vede che sono correzioni avvenute in un secondo momento-->
+                    <change xml:id="strato-2">Secondo strato di varianti apportato in lapis</change>
+                    <change xml:id="strato-3">Terzo strato di varianti e correzioni annotate in penna nera</change>
+                    <change xml:id="strato-4">Terzo strato di varianti e correzioni annotate in penna blu</change>
+                    <change xml:id="strato-5">Quarto strato di varianti e correzioni annotate in matita blu</change>
+                    <change xml:id="strato-6">Strato scrittorio con indicazioni tipografiche in penna blu risalente al 1921</change> 
+                    <change xml:id="strato-post_21">Strato scrittorio con indicazioni tipografiche in matita rossa</change>
+                </listChange>
+                <listChange ordered="true">
+                    <change xml:id="boh"></change><!--Non capisco bene la necessità di questa seconda <listChange> Se non la inserisco, spariscono gli strati-->
+                    
+                </listChange>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <variantEncoding location="internal" method="parallel-segmentation"/>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="page"><pb n="Copertina" facs="Cp_r.jpg"/>
+                <ab rend="align-center">
+                    <lb/>
+                    <lb/>
+                    <lb/>
+                    primi appunti 
+                    <lb/>
+                    <hi rend="underline">Autobiografici - </hi>
+                    <lb/>
+                    (da 10 a 15 anni) - 1910 -
+                    <lb/>
+                    <lb/>
+                    <lb/>
+                    <lb/>
+                    <mod change="#strato-0">
+                        <subst>
+                            <del rend="strikethrough" seq="1">Autopsicologia</del>
+                            <del rend="strikethrough" seq="2"> - (Autologia)</del><lb/>
+                            <del rend="strikethrough" seq="3" >Wstefano</del><lb/>
+                            <add place="below" seq="4">- Autos -</add>
+                        </subst>
+                    </mod><lb/>
+                    <app>
+                        <lem varSeq="3">
+                            <mod change="#strato-0">
+                                <subst>
+                                    <del rend="strikethrough"> <lb/>Wstafano</del>
+                                    <add>Autos</add>
+                                </subst>
+                            </mod>
+                        </lem>
+                        <rdg varSeq="2">
+                            <mod change="#strato-0">
+                                <subst>
+                                    <del rend="strikethrough"> - (Autologia)</del><lb/>
+                                    <add> Wstefano</add>
+                                </subst>
+                            </mod>
+                        </rdg>
+                        <rdg varSeq="1">
+                            <mod change="#strato-0">
+                                <subst>
+                                    <del rend="strikethrough"> Autopsicologia </del>
+                                    <add> - (Autologia)</add>
+                                </subst>
+                            </mod>
+                        </rdg>
+                    </app>
+                    <!--  <subst>
+                         <del seq="4" rend="strikethrough"><del seq="3" rend="strikethrough"><del rend="strikethrough" seq="1">Autospicologia</del>
+                         <add place="inline" seq="2">Autologia</add></del>
+                         <add place="below" seq="3">W stefano</add></del>
+                         <add place="below" seq="5">Autos</add>
+                         </subst>
+                         Questa rappresentazione, con annidamento di <del> e <add> credo sia più ambigua, perchè può suggerire che l'autore abbia cancellato tutto il blocco precedente di volta in volta-->
+                    
+                    <mod change="#strato-2"><del rend="strikethrough"><add place="above">Pazzo d'Italia</add></del></mod>
+                    
+                </ab></div>
+        </body>
+    </text>
+</TEI>

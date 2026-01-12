@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Novelle</title>
+				<author>Luigi Pirandello</author>
+				<respStmt>
+					<resp>Text Encoding by </resp>
+					<name>Sara Tavrnesi</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Sara Tavrnesi</publisher>
+				<availability>
+					<p>Prova per la separazione dei testimoni delle Novelle di Pirandello</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit xml:id="Wit_Global">
+					<desc>Novelle di Luigi Pirandello</desc>
+					
+					<witness xml:id="GRUPPO_SE">
+						<desc>Testimoni per la novella "Se..."</desc>
+						<listWit>
+							<witness xml:id="SE_Riv1">
+								<label>SE (Base)</label>
+								<msDesc>
+									<msIdentifier>
+										<settlement>Roma</settlement>
+										<repository>Biblioteca Nazionale Centrale</repository>
+										<msName>La Tribuna illustrata</msName>
+									</msIdentifier>
+								</msDesc>
+							</witness>
+							
+							<witness xml:id="SE_Riv2">SE_Riv2</witness>
+							<witness xml:id="SE_Riv3">SE_Riv3</witness>
+							<witness xml:id="SE_LU">SE_LU</witness>
+							<witness xml:id="SE_BEM">SE_BEM</witness>
+						</listWit>
+					</witness>
+					
+					<witness xml:id="GRUPPO_LN">
+						<desc>Testimoni per la novella "Le Nonne"</desc>
+						<listWit>
+							<witness xml:id="LN_Riv1">
+								<label>Le Nonne (Base)</label>
+								<msDesc>
+									<msIdentifier>
+										<settlement>Oneglia</settlement>
+										<repository>Archivio Novaro</repository>
+										<msName>La Riviera Ligure</msName>
+									</msIdentifier>
+								</msDesc>
+							</witness>
+							
+							<witness xml:id="LN_Riv2">LN_Riv2</witness>
+							<witness xml:id="LN_BEM">LN_BEM</witness>
+						</listWit>
+					</witness>
+					
+				</listWit>
+			</sourceDesc>
+			
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="double-end-point" location="external"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text xml:id="SE" corresp="#GRUPPO_SE">
+				<body>
+					<div type="novel" n="SE">
+						<head><title><hi rend="italic">Se...</hi></title></head>
+						
+						<pb n="SE_Pag_1" facs="SE_1.jpg"/>
+						<p>-<w xml:id="SE-001-2">Parte</w>
+							<w xml:id="SE-001-3">o</w>
+							<w xml:id="SE-001-4">arriva?</w>
+							<w xml:id="SE-001-5">–</w>
+							<w xml:id="SE-001-6">si</w>
+							<w xml:id="SE-001-7">domandò</w>
+							<w xml:id="SE-001-8">mentalmente</w>
+							<w xml:id="SE-001-9">Enzo</w>
+							<w xml:id="SE-001-10">Valdoggi</w>
+							,
+							<w xml:id="SE-001-11">udendo</w>
+							<w xml:id="SE-001-12">il</w>
+							<w xml:id="SE-001-13">fischio</w>
+							<w xml:id="SE-001-14">di</w>
+							<w xml:id="SE-001-15">un</w>
+							<w xml:id="SE-001-16">treno</w>
+							<w xml:id="SE-001-17">e</w>
+							<w xml:id="SE-001-18">guardando</w>
+							<w xml:id="SE-001-19">l’edificio</w>
+							<w xml:id="SE-001-20">della</w>
+							<w xml:id="SE-001-21">stazione</w>
+							<w xml:id="SE-001-22">da</w>
+							<w xml:id="SE-001-23">un</w>
+							<w xml:id="SE-001-24">tavolino</w>
+							<w xml:id="SE-001-25">innanzi</w>
+							<w xml:id="SE-001-26">allo</w>
+							<w xml:id="SE-001-27"><hi rend="italic">châlet</hi></w>
+							<w xml:id="SE-001-28">Morteo</w>
+							<w xml:id="SE-001-28.1"/>
+							<w xml:id="SE-001-29">in</w>
+							<w xml:id="SE-001-30">Piazza</w>
+							<w xml:id="SE-001-31">delle</w>
+							<w xml:id="SE-001-32">Terme</w>
+							<w xml:id="SE-001-33"/>
+							<w xml:id="SE-001-34"/>.
+						</p>
+						<p>
+							<w xml:id="SE-001-33.1">S’era</w>
+							<w xml:id="SE-001-34.1">appigliato</w>
+							<w xml:id="SE-001-35">al</w>
+							<w xml:id="SE-001-36">fischio</w>
+							<w xml:id="SE-001-37">del</w>
+							<w xml:id="SE-001-38">treno</w>
+							,
+							<w xml:id="SE-001-39">come</w>
+							<w xml:id="SE-001-40">si</w>
+							<w xml:id="SE-001-41">sarebbe</w>
+							<w xml:id="SE-001-42">appigliato</w>
+							<w xml:id="SE-001-43">al</w>
+							<w xml:id="SE-001-44">ronzìo</w>
+							<w xml:id="SE-001-45">sordo</w>
+							<pc xml:id="SE-001-45.1">,</pc>
+							<w xml:id="SE-001-46">continuo</w>
+							<pc xml:id="SE-001-46.1">,</pc>
+							<w xml:id="SE-001-47">che</w>
+							<w xml:id="SE-001-48">fanno</w>
+							<w xml:id="SE-001-49">i</w>
+							<w xml:id="SE-001-50">globi</w>
+							<w xml:id="SE-001-51">smerigliati</w>
+							<w xml:id="SE-001-52">della</w>
+							<w xml:id="SE-001-53">luce</w>
+							<w xml:id="SE-001-54">elettrica</w>
+							,
+							<w xml:id="SE-001-55">tanto</w>
+							<w xml:id="SE-001-56">per</w>
+							<w xml:id="SE-001-57">distrarre</w>
+							<w xml:id="SE-001-58">i</w>
+							<w xml:id="SE-001-59">suoi</w>
+							<w xml:id="SE-001-60">sensi</w>
+							<w xml:id="SE-001-61">dall’osservazione</w>
+							<w xml:id="SE-001-62">d’una</w>
+							<w xml:id="SE-001-63">persona</w>
+							<w xml:id="SE-001-63.1"/>
+							<w xml:id="SE-001-64">che</w>
+							<w xml:id="SE-001-64.1">,</w>
+							<w xml:id="SE-001-65">dal</w>
+							<w xml:id="SE-001-66">tavolino</w>
+							<w xml:id="SE-001-67">accanto</w>
+							,
+							<w xml:id="SE-001-68">lo</w>
+							<w xml:id="SE-001-69">fissava</w>
+							<w xml:id="SE-001-70">con</w>
+							<w xml:id="SE-001-71">una</w>
+							<w xml:id="SE-001-72">immobilità</w>
+							<w xml:id="SE-001-73">fastidiosa</w>
+							.</p>
+						<p>
+							<w xml:id="SE-001-74">Vi</w>
+							<w xml:id="SE-001-75">riuscì</w>
+							<w xml:id="SE-001-76">per</w>
+							<w xml:id="SE-001-77">un</w>
+							<w xml:id="SE-001-78">tratto</w>
+							.
+							<w xml:id="SE-001-79">Si</w>
+							<w xml:id="SE-001-80">rappresentò</w>
+							<w xml:id="SE-001-80.1"/>
+							<w xml:id="SE-001-81">l’interno</w>
+							<w xml:id="SE-001-82">della</w>
+							<w xml:id="SE-001-83">stazione</w>
+							,
+							<w xml:id="SE-001-84">il</w>
+							<w xml:id="SE-001-85">contrasto</w>
+							<w xml:id="SE-001-86">della</w>
+							<w xml:id="SE-001-87">luce</w>
+							<w xml:id="SE-001-88">elettrica</w>
+							<w xml:id="SE-001-88.1"/>
+							<w xml:id="SE-001-89">con</w>
+							<w xml:id="SE-001-90">l’ambiente</w>
+							<w xml:id="SE-001-91">sporco</w>
+							<w xml:id="SE-001-92">di</w>
+							<w xml:id="SE-001-93">carbone</w>
+							<w xml:id="SE-001-94">e</w>
+							<w xml:id="SE-001-95">affumicato</w>
+							;
+							<w xml:id="SE-001-96">ma</w>
+							<pc xml:id="SE-001-96p">,</pc>
+							<w xml:id="SE-001-97">il</w>
+							<w xml:id="SE-001-98">treno</w>
+							<w xml:id="SE-001-99">arrivava</w>
+							<w xml:id="SE-001-100">o</w>
+							<w xml:id="SE-001-101">partiva</w>
+							<pc xml:id="SE-001-101p">?</pc>
+							<w xml:id="SE-001-102">dove</w>
+							<w xml:id="SE-001-103">collocar</w>
+							<w xml:id="SE-001-104">la</w>
+							<w xml:id="SE-001-105">vaporiera</w>
+							<pc xml:id="SE-001-105p">?</pc>
+							<w xml:id="SE-001-105.1"/>
+							<w xml:id="SE-001-106">E</w>
+							<w xml:id="SE-001-107">si</w>
+							<w xml:id="SE-001-108">immaginò</w>
+							<pc xml:id="SE-001-108p">,</pc>
+							<w xml:id="SE-001-109">secondo</w>
+							<w xml:id="SE-001-110">esperienza</w>
+							<pc xml:id="SE-001-110p">,</pc>
+							<w xml:id="SE-001-111">tutte</w>
+							<w xml:id="SE-001-112">le</w>
+							<w xml:id="SE-001-113">seccature</w>
+							<w xml:id="SE-001-114">e</w>
+							<w xml:id="SE-001-115">le</w>
+							<w xml:id="SE-001-116">preoccupazioni</w>
+							<w xml:id="SE-001-117">d’un</w>
+							<w xml:id="SE-001-118">passeggiero</w>
+							<pc xml:id="SE-001-118p">,</pc>
+							<w xml:id="SE-001-119">sia</w>
+							<w xml:id="SE-001-120">che</w>
+							<w xml:id="SE-001-121">parta</w>
+							<pc xml:id="SE-001-121p">,</pc>
+							<w xml:id="SE-001-122">sia</w>
+							<w xml:id="SE-001-123">che</w>
+							<w xml:id="SE-001-124">arrivi</w>
+							<pc xml:id="SE-001-124p">:</pc>
+							<w xml:id="SE-001-125">se</w>
+							<w xml:id="SE-001-126">parte</w>
+							<pc xml:id="SE-001-126p">,</pc>
+							<w xml:id="SE-001-127">la</w>
+							<w xml:id="SE-001-128">ricerca</w>
+							<w xml:id="SE-001-129">d’un</w>
+							<w xml:id="SE-001-130">buon</w>
+							<w xml:id="SE-001-131">posto</w>
+							<pc xml:id="SE-001-131p">,</pc>
+							<w xml:id="SE-001-132">presso</w>
+							<w xml:id="SE-001-133">il</w>
+							<w xml:id="SE-001-134">finestrino</w>
+							<pc xml:id="SE-001-134p">;</pc>
+							<w xml:id="SE-001-135">vettura</w>
+							<w xml:id="SE-001-136">con</w>
+							<w xml:id="SE-001-137">ritirata</w>
+							<pc xml:id="SE-001-137p">;</pc>
+							<w xml:id="SE-001-138">poi</w>
+							<pc xml:id="SE-001-138p">,</pc>
+							<w xml:id="SE-001-139">il</w>
+							<w xml:id="SE-001-140">collocamento</w>
+							<w xml:id="SE-001-141">delle</w>
+							<w xml:id="SE-001-142">valigie</w>
+							<pc xml:id="SE-001-142p">,</pc>
+							<w xml:id="SE-001-143">la</w>
+							<w xml:id="SE-001-144">mancia</w>
+							<w xml:id="SE-001-145">al</w>
+							<w xml:id="SE-001-146">facchino</w>
+							<pc xml:id="SE-001-146p">,</pc>
+							<w xml:id="SE-001-147">l’esame</w>
+							<w xml:id="SE-001-148">de’</w>
+							<w xml:id="SE-001-149">compagni</w>
+							<w xml:id="SE-001-150">di</w>
+							<w xml:id="SE-001-151">viaggio</w>
+							<pc xml:id="SE-001-151p">...</pc>
+							<w xml:id="SE-001-152">se</w>
+							<w xml:id="SE-001-153">arriva</w>
+							<pc xml:id="SE-001-153p">,</pc>
+							<w xml:id="SE-001-154">il</w>
+							<w xml:id="SE-001-155">facchino</w>
+							<w xml:id="SE-001-156">da</w>
+							<w xml:id="SE-001-157">chiamare</w>
+							<pc xml:id="SE-001-157p">,</pc>
+							<w xml:id="SE-001-158">le</w>
+							<w xml:id="SE-001-159">valigie</w>
+							<w xml:id="SE-001-160">da</w>
+							<w xml:id="SE-001-161">sorvegliare</w>
+							<pc xml:id="SE-001-161p">,</pc>
+							<w xml:id="SE-001-162">i</w>
+							<w xml:id="SE-001-163">doganieri</w>
+							<w xml:id="SE-001-164">da</w>
+							<w xml:id="SE-001-165">schivare</w>
+							<pc xml:id="SE-001-165p">,</pc>
+							<w xml:id="SE-001-166">l’omnibus</w>
+							<w xml:id="SE-001-167">d’albergo</w>
+							<w xml:id="SE-001-168">da</w>
+							<w xml:id="SE-001-169">scegliere</w>
+							<pc xml:id="SE-001-169p">,</pc>
+							<w xml:id="SE-001-170">per</w>
+							<w xml:id="SE-001-171">non</w>
+							<w xml:id="SE-001-172">aver</w>
+							<w xml:id="SE-001-173">da</w>
+							<w xml:id="SE-001-174">fare</w>
+							<w xml:id="SE-001-175">con</w>
+							<w xml:id="SE-001-176">le</w>
+							<w xml:id="SE-001-177">vetture</w>
+							<w xml:id="SE-001-178">pubbliche</w>
+							<pc xml:id="SE-001-178p">.</pc>
+							<w xml:id="SE-001-179">Che</w>
+							<w xml:id="SE-001-180">canaglia</w>
+							<pc xml:id="SE-001-180p">,</pc>
+							<w xml:id="SE-001-181">i</w>
+							<w xml:id="SE-001-182">vetturini</w>
+							<pc xml:id="SE-001-182p">!</pc>
+						</p>
+						<p rend="indent">
+							<w xml:id="SE-001-183">Inavvertitamente</w>
+							<w xml:id="SE-001-184">gli</w>
+							<w xml:id="SE-001-185">cadde</w>
+							<w xml:id="SE-001-186">di</w>
+							<w xml:id="SE-001-187">nuovo</w>
+							<w xml:id="SE-001-188">lo</w>
+							<w xml:id="SE-001-189">sguardo</w>
+							<w xml:id="SE-001-190">sulla</w>
+							<w xml:id="SE-001-191">persona</w>
+							<w xml:id="SE-001-192">del</w>
+							<w xml:id="SE-001-193">tavolino</w>
+							<w xml:id="SE-001-194">accanto</w>
+							<pc xml:id="SE-001-194p">.</pc>
+							<w xml:id="SE-001-194.1"/>
+							<w xml:id="SE-001-195">Era</w>
+							<w xml:id="SE-001-196">costui</w>
+							<w xml:id="SE-001-197">un</w>
+							<w xml:id="SE-001-198">uomo</w>
+							<w xml:id="SE-001-199">sui</w>
+							<w xml:id="SE-001-200">quarant’anni</w>
+							<pc xml:id="SE-001-200p">,</pc>
+							<w xml:id="SE-001-201">vestito</w>
+							<w xml:id="SE-001-202">di</w>
+							<w xml:id="SE-001-203">nero</w>
+							<pc xml:id="SE-001-203p">,</pc>
+							<w xml:id="SE-001-204">capelli</w>
+							<w xml:id="SE-001-205">e</w>
+							<w xml:id="SE-001-206">baffi</w>
+							<w xml:id="SE-001-207">rossicci</w>
+							<pc xml:id="SE-001-207p">,</pc>
+							<w xml:id="SE-001-208">la</w>
+							<w xml:id="SE-001-209">faccia</w>
+							<w xml:id="SE-001-210">disfatta</w>
+							<pc xml:id="SE-001-210p">,</pc>
+							<w xml:id="SE-001-211">d’una</w>
+							<w xml:id="SE-001-212">citrinità</w>
+							<w xml:id="SE-001-213">malaticcia</w>
+							<pc xml:id="SE-001-213p">,</pc>
+							<w xml:id="SE-001-214">gli</w>
+							<w xml:id="SE-001-215">occhi</w>
+							<w xml:id="SE-001-216">torbidi</w>
+							<pc xml:id="SE-001-216p">,</pc>
+							<w xml:id="SE-001-217">ammaccati</w>
+							<pc xml:id="SE-001-217p">,</pc>
+							<w xml:id="SE-001-218">di</w>
+							<w xml:id="SE-001-219">color</w>
+							<w xml:id="SE-001-220">verde-grigio</w>
+							<pc xml:id="SE-001-220p">.</pc>
+							<w xml:id="SE-001-221">Stavagli</w>
+							<w xml:id="SE-001-222">a</w>
+							<w xml:id="SE-001-223">fianco</w>
+							<w xml:id="SE-001-224">una</w>
+							<w xml:id="SE-001-225">vecchierella</w>
+							<w xml:id="SE-001-226">mezzo</w>
+							<w xml:id="SE-001-227">appisolata</w>
+							<pc xml:id="SE-001-227p">,</pc>
+							<w xml:id="SE-001-228">placidissima</w>
+							<pc xml:id="SE-001-228p">,</pc>
+							<w xml:id="SE-001-229">vestita</w>
+							<w xml:id="SE-001-230">d’un</w>
+							<w xml:id="SE-001-231">abito</w>
+							<w xml:id="SE-001-232">acciaio</w>
+							<pc xml:id="SE-001-232p">,</pc>
+							<w xml:id="SE-001-233">un</w>
+							<w xml:id="SE-001-234">po’</w>
+							<w xml:id="SE-001-235">frusto</w>
+							<pc xml:id="SE-001-235p">,</pc>
+							<w xml:id="SE-001-236">con</w>
+							<w xml:id="SE-001-237">un</w>
+							<w xml:id="SE-001-238">cappellino</w>
+							<w xml:id="SE-001-239">nero</w>
+							<w xml:id="SE-001-240">sui</w>
+							<w xml:id="SE-001-241">capelli</w>
+							<w xml:id="SE-001-242">bianchissimi</w>
+							<pc xml:id="SE-001-242p">,</pc>
+							<w xml:id="SE-001-243">connesso</w>
+							<w xml:id="SE-001-244">a</w>
+							<w xml:id="SE-001-245">due</w>
+							<w xml:id="SE-001-246">enormi</w>
+							<w xml:id="SE-001-247">nastri</w>
+							<w xml:id="SE-001-248">neri</w>
+							<w xml:id="SE-001-249">annodati</w>
+							<w xml:id="SE-001-250">goffamente</w>
+							<w xml:id="SE-001-251">sotto</w>
+							<w xml:id="SE-001-252">il</w>
+							<w xml:id="SE-001-253">mento</w>
+							<pc xml:id="SE-001-253p">.</pc>
+						</p>
+					</div>
+				</body>
+			</text>
+			
+			<text xml:id="Le_Nonne" corresp="#Wit_LN">
+				<body>
+					<pb n="LN_Pag_1"/>
+					<div type="novel" n="Le Nonne">
+						<head><w xml:id="LN-000-1">Le Nonne</w></head>
+						<p xml:id="LN-p1">
+							Per tanti e tanti giorni, dal Ràbato, e giù da Lìtria, da S. Michele, da ogni punto della città, accorse gente a vedere, a sentire che era accaduto là sotto Porta dell’Addolorata, in quel ceppo di vecchie casupole fuori del paese.
+						</p>
+						<p xml:id="LN-p2">
+							Un caso strano e terribile, dicevano.
+						</p>
+						<p xml:id="LN-p3">
+							Le Nonne, esseri misteriosi notturni, cui nessuno, è vero, aveva mai veduto – questo no – ma di cui purtroppo tante povere mamme avevano sperimentato il malefizio su i loro bambini, trovandoli dalla notte al giorno o con le gambe storte o coi piedi sbiechi o coi capelli impiastricciati in modo da non potersi più distrigare;
+						</p>
+						
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<listApp corresp="#SE">
+				<listApp corresp="#SE_Pag_1">
+					<app from="#SE-001-6" to="#SE-001-7">
+						<lem wit="#SE_Riv1 #SE_Riv2">si domandò</lem>
+						<rdg wit="#SE_Riv3" type="substantive">mi domandai</rdg>
+						<rdg wit="#SE_LU" type="substantive">domandò a sè stesso</rdg>
+						<rdg wit="#SE_BEM" type="substantive">domandò a se stesso</rdg>
+					</app>
+					<app from="#SE-001-8">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_Riv3 #SE_LU">mentalmente</lem>
+						<rdg wit="#SE_BEM" type="omissio"/>
+					</app>
+					<app from="#SE-001-9" to="#SE-001-10">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_LU">Enzo Valdoggi</lem>
+						<rdg wit="#SE_Riv3" type="omissio"/>
+						<rdg wit="#SE_BEM" type="substantive">il Valdoggi</rdg>
+					</app>
+					<app from="#SE-001-14" to="#SE-001-15">
+						<lem wit="#SE_Riv1">di un</lem>
+						<rdg wit="#SE_Riv2 #SE_Riv3 #SE_LU #SE_BEM" type="orthographic">d’un</rdg>
+					</app>
+					<app from="#SE-001-17">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_LU #SE_BEM">e</lem>
+						<rdg wit="#SE_Riv3" type="substantive">o</rdg>
+					</app>
+					<app from="#SE-001-19" to="#SE-001-21">
+						<lem wit="#SE_Riv1">l’edificio della stazione </lem>
+						<rdg wit="#SE_Riv2 #SE_Riv3 #SE_LU #SE_BEM" type="phraseshift" />
+					</app>
+					<app from="#SE-001-27">
+						<lem wit="#SE_Riv1 #SE_LU">
+							<hi rend="italic">chalet</hi>
+						</lem>
+						<rdg wit="#SE_Riv2 #SE_Riv3 #SE_BEM" type="orthographic">
+							<hi rend="italic">Chalet</hi>
+						</rdg>
+					</app>
+					<app from="#SE-001-28">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_Riv3 #SE_LU"> Morteo</lem>
+						<rdg wit="#SE_BEM" type="omissio" />
+					</app>
+					<app from="#SE-001-28.1">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_BEM #SE_LU"/>
+						<rdg wit="#SE_Riv3" type="punctuation">
+							<add>,</add></rdg>
+					</app>
+					<app from="#SE-001-33">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_BEM #SE_LU"/>
+						<rdg wit="#SE_Riv3" type="punctuation">
+							<add>,</add>
+						</rdg>
+					</app> 
+					<app from="#SE-001-34">
+						<lem wit="#SE_Riv1"/>
+						<rdg wit="#SE_Riv2" type="phraseshift">l'edificio cappoluto della stazione ferroviaria</rdg>
+						<rdg wit="#SE_Riv3 #SE_LU"  type="phraseshift">l'edificio coppoluto della
+							stazione ferroviaria</rdg>
+						<rdg wit="#SE_BEM"  type="phraseshift">l'edificio della stazione ferroviaria</rdg>
+					</app>
+					<app from="#SE-001-33.1">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_BEM #SE_LU">S’era</lem>
+						<rdg wit="#SE_Riv3" type="substantive">M'ero</rdg>
+					</app>
+					<app from="#SE-001-40" to="#SE-001-41">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_BEM #SE_LU">si sarebbe</lem>
+						<rdg wit="#SE_Riv3" type="substantive">mi sarei</rdg>
+					</app>
+					<app from="#SE-001-45.1">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_Riv3">,</lem>
+						<rdg wit="#SE_BEM #SE_LU" type="punctuation" />
+					</app>
+					<app from="#SE-001-46.1">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_Riv3">,</lem>
+						<rdg wit="#SE_BEM #SE_LU" type="punctuation" />
+					</app>
+					<app from="#SE-001-51">
+						<lem wit="#SE_Riv1 #SE_Riv2">smerigliati</lem>
+						<rdg wit="#SE_Riv3 #SE_LU #SE_BEM" type="omissio" />
+					</app>
+					<app from="#SE-001-55" to="#SE-001-57">
+						<lem wit="#SE_Riv1">tanto per distrarre i suoi sensi</lem>
+						<rdg wit="#SE_Riv2" type="substantive">
+							pur di riuscire a distrar</rdg>
+						<rdg wit="#SE_Riv3 #SE_LU #SE_BEM" type="substantive">
+							pur di riuscire a distrarre</rdg>
+					</app>
+					<app from="#SE-001-61">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_BEM">dall’osservazione</lem>
+						<rdg wit="#SE_Riv3 #SE_LU" type="omissio" />
+					</app>
+					<app from="#SE-001-62">
+						<lem wit="#SE_Riv1 #SE_Riv2">d’una</lem>
+						<rdg wit="#SE_Riv3" type="orthographic">da una</rdg>
+						<rdg wit="#SE_LU #SE_BEM" type="substantive">da un</rdg>
+					</app>
+					<app from="#SE-001-63">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_Riv3">persona</lem>
+						<rdg wit="#SE_LU #SE_BEM" type="substantive">avventore</rdg>
+					</app>
+					<app from="#SE-001-63.1">
+						<lem wit="#SE_Riv1" />
+						<rdg wit="#SE_Riv2 #SE_Riv3 #SE_LU #SE_BEM" type="punctuation">,</rdg>
+					</app>
+					<app from="#SE-001-64">
+						<lem wit="#SE_Riv1">che</lem>
+						<rdg wit="#SE_Riv3" type="substantive">la quale</rdg>
+						<rdg wit="#SE_LU #SE_BEM" type="substantive">il quale</rdg>
+					</app>
+					<app from="SE-001-64.1">
+						<lem wit="#SE_Riv1 #SE_Riv3 #SE_LU #SE_BEM" >,</lem>
+						<rdg wit="#SE_Riv2" type="punctuation"/>
+					</app>
+					<app from="#SE-001-68">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_LU">lo fissava</lem>
+						<rdg wit="#SE_Riv3" type="substantive">mi fissava</rdg>
+						<rdg wit="#SE_BEM" type="substantive">stava a fissarlo</rdg>
+					</app>
+					<app from="#SE-001-71" to="#SE-001-73">
+						<lem wit="#SE_Riv1">una immobilità fastidiosa</lem>
+						<rdg wit="#SE_Riv2 #SE_Riv3 #SE_LU" type="phraseshift">fastidiosa immobilità</rdg>
+						<rdg wit="#SE_BEM" type="substantive">irritante immobilità</rdg>
+					</app>
+					<app from="#SE-001-74" to="#SE-001-78">
+						<lem wit="#SE_Riv1">Vi riuscì per un tratto</lem>
+						<rdg wit="#SE_Riv2 #SE_LU #SE_BEM" type="substantive">Per qualche minuto vi riuscì</rdg>
+						<rdg wit="#SE_Riv3" type="substantive">Per qualche minuto vi riuscii</rdg>
+					</app>
+					<app from="#SE-001-79" to="#SE-001-80">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_LU #SE_BEM">Si rappresentò </lem>
+						<rdg wit="#SE_Riv3" type="substantive">Mi rappresentai</rdg>
+						
+					</app>
+					<app from="#SE-001-80.1">
+						<lem wit="#SE_Riv1"/>
+						<rdg wit="#SE_Riv2 #SE_Riv3 #SE_LU #SE_BEM" type="substantive"><add>col pensiero</add>
+						</rdg>
+						
+					</app>
+					<app from="#SE-001-84" to="#SE-001-86">
+						<lem wit="#SE_Riv1">il contrasto della</lem>
+						<rdg wit="#SE_Riv2" type="substantive">il bianco fulgore della</rdg>
+						<rdg wit="#SE_Riv3 #SE_LU #SE_BEM" type="substantive">ove il fulgore opalino</rdg>
+					</app>
+					<app from="#SE-001-88.1">
+						<lem wit="#SE_Riv1"/>
+						<rdg wit="#SE_Riv2" type="substantive">contrastava
+						</rdg>
+						<rdg wit="#SE_Riv3 #SE_LU #SE_BEM" type="substantive">contrasta
+						</rdg>
+					</app>
+					<app from="#SE-001-90">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_Riv3 #SE_LU"> l'ambiente</lem>
+						<rdg wit="#SE_BEM" type="substantive">la vacuità</rdg>
+					</app>
+					<app from="#SE-001-91" to="#SE-001-95">
+						<lem wit="#SE_Riv1">sporco di carbone e affumicato</lem>
+						<rdg wit="#SE_Riv2" type="substantive">sporco <add>cupamente sonoro, sporco </add>di carbone e affumicato </rdg>
+						<rdg wit="#SE_Riv3 #SE_LU" type="substantive">fosco, cupamente sonoro, sporco di carbone e
+							affumicato</rdg>
+						<rdg wit="#SE_BEM" type="substantive">sotto l'immenso lucernario fuligginoso</rdg>
+						
+					</app>
+					<app from="#SE-001-96p">
+						<lem wit="#SE_Riv1">,</lem>
+						<rdg wit="#SE_Riv2 #SE_Riv3 #SE_LU" type="punctuation">-</rdg>
+					</app>
+					<app from="#SE-001-96" to="#SE-001-105p">
+						<lem wit="#SE_Riv1">ma, il treno arrivava o partiva? dove collocar la vaporiera?</lem>
+						<rdg wit="#SE_BEM" type="omissio"/>
+					</app>
+					<app from="#SE-001-105.1">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_Riv3 #SE_BEM"/>
+						<rdg wit="#SE_LU">
+							<p/>
+						</rdg>
+					</app>
+					<app from="#SE-001-106">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_Riv3 #SE_LU">E</lem>
+						<rdg wit="#SE_BEM" type="substantive">e</rdg>
+					</app>
+					<app from="#SE-001-107" to="#SE-001-108">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_LU">si immaginò</lem>
+						<rdg wit="#SE_Riv3" type="substantive">mi immaginai</rdg>
+						<rdg wit="#SE_BEM" type="substantive">diede a immaginare</rdg>
+						
+					</app>
+					<app from="#SE-001-108p" to="#SE-001-110p">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_Riv3 #SE_LU">, secondo esperienza,</lem>
+						<rdg wit="#SE_BEM" type="omissio"> </rdg>
+					</app>
+					<app from="#SE-001-118">
+						<lem wit="#SE_Riv1">passeggiero</lem>
+						<rdg wit="#SE_Riv2 #SE_Riv3 #SE_LU #SE_BEM" type="substantive">viaggiatore</rdg>
+					</app>
+					<app from="#SE-001-122">
+						<lem wit="#SE_Riv1 #SE_Riv3 #SE_LU #SE_BEM">sia</lem>
+						<rdg wit="#SE_Riv2" type="substantive">o</rdg>
+					</app>
+					<app from="#SE-001-124p">
+						<lem wit="#SE_Riv1 #SE_Riv2">:</lem>
+						<rdg wit="#SE_Riv3 #SE_LU" type="punctuation">...</rdg>
+						<rdg wit="#SE_BEM" type="punctuation">.</rdg>
+					</app>
+					<app from="#SE-001-125" to="#SE-001-182p">
+						<lem wit="#SE_Riv1">se parte, la ricerca d’un buon posto, presso il finestrino; vettura con ritirata; poi, il
+							collocamento delle valigie, la mancia al facchino, l’esame de’ compagni di viaggio... se arriva, il facchino
+							da chiamare, le valigie da sorvegliare, i doganieri da schivare, l’omnibus d’albergo da scegliere, per non
+							aver da fare con le vetture pubbliche. Che canaglia, i vetturini!</lem>
+						<rdg wit="#SE_Riv2" type="substantive">se parte, la ricerca d’un buon
+							posto, accanto al finestrino, vettura con ritirata, per fumatori, tra la ressa della gente e gli appelli del
+							conduttore; poi il collocamento delle valige, la mancia al facchino, l’esame curioso dei compagni di
+							viaggio; se arriva, il facchino da chiamare, le valige da sorvegliare, i doganieri da schivare, l’omnibus
+							d’albergo da scegliere, per non aver da fare con le vetture pubbliche. – Che canaglia, i vetturini!</rdg>
+						<rdg wit="#SE_Riv3 #SE_LU #SE_BEM" type="omissio" />
+					</app>
+					<app from="#SE-001-183.1">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_Riv3"/>
+						<rdg wit="#SE_LU #SE_BEM" type="substantive">
+							<add>però</add>
+						</rdg>
+					</app>
+					<app from="#SE-001-184">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_LU #SE_BEM"> gli</lem>
+						<rdg wit="#SE_Riv-3" type="substantive">, mi</rdg>
+					</app>
+					<app from="#SE-001-190">
+						<lem wit="#SE_Riv1"> sulla</lem>
+						<rdg wit="#SE_Riv2 #SE_Riv3" type="orthographic">su la</rdg>
+						<rdg wit="#SE_LU #SE_BEM" type="substantive">su quell'</rdg>
+					</app>
+					<app from="#SE-001-191">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_Riv3">persona</lem>
+						<rdg wit="#SE_LU #SE_BEM" type="orthographic">avventore</rdg>
+
+					</app>
+					<app from="SE-001-194.1">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_Riv3 #SE_LU"/>
+						<rdg wit="BEM" type="substantive">
+							<p />
+						</rdg>
+					</app> 
+				</listApp>
+			</listApp>
+			<listApp corresp="Le_Nonne">
+				
+				<listApp corresp="#LN_Pag_1">
+					
+					<app from="#LN-000-1">
+						<lem wit="#LN_Riv1">Le Nonne</lem>
+						<rdg wit="#LN_Riv2 #LN_BEM" type="substantive">Il figlio cambiato</rdg>
+					</app>
+					<app from="#LN-p1" to="#LN-p3">
+						<lem wit="#LN_Riv1">Per tanti e tanti giorni, dal Ràbato, e giù da Lìtria, da S. Michele, da ogni punto della città, accorse
+							gente a vedere, a sentire che era accaduto là sotto Porta dell’Addolorata, in quel ceppo di vecchie casupole
+							fuori del paese.
+							Un caso strano e terribile, dicevano.
+							Le Nonne, esseri misteriosi notturni, cui nessuno, è vero, aveva mai veduto – questo no – ma di cui
+							purtroppo tante povere mamme avevano sperimentato il malefizio su i loro bambini, trovandoli dalla
+							notte al giorno o con le gambe storte o coi piedi sbiechi o coi capelli impiastricciati in modo da non
+							potersi più distrigare;</lem>
+						<rdg wit="#LN_Riv2" type="substantive">Avevo udito urlare una donna durante tutta la notte.<p/>
+							La mattina dopo venni a sapere dalle comari del vicinato che aveva urlato e levato quelle disperazioni
+							una madre, una certa Sara Longo, a cui, mentre dormiva, avevano rubato il figlio di tre mesi,
+							lasciandogliene in cambio un altro.</rdg>
+						<rdg wit="#LN_BEM" type="substantive">Avevo udito urlare durante tutta la notte, e a una cert’ora fonda e perduta tra il sonno e la veglia
+							non avrei più saputo dire, se quelle urla fossero di bestia o umane.<p/>
+							La mattina dopo venni a sapere dalle donne del vicinato ch’erano state disperazioni levate da
+							una madre (una certa Sara Longo), a cui, mentre dormiva, avevano rubato il figlio di tre mesi,
+							lasciandogliene in cambio un altro.</rdg>
+					</app>
+				</listApp>
+				
+			</listApp>
+		</back>
+	</text>
+</TEI>
