@@ -325,18 +325,22 @@
 							<w xml:id="SE-001-198">uomo</w>
 							<w xml:id="SE-001-199">sui</w>
 							<w xml:id="SE-001-200">quarant’anni</w>
+							<w xml:id="SE-001-200.1"/>
 							<pc xml:id="SE-001-200p">,</pc>
 							<w xml:id="SE-001-201">vestito</w>
 							<w xml:id="SE-001-202">di</w>
 							<w xml:id="SE-001-203">nero</w>
 							<pc xml:id="SE-001-203p">,</pc>
+							<w xml:id="SE-001-203.1"/>
 							<w xml:id="SE-001-204">capelli</w>
 							<w xml:id="SE-001-205">e</w>
 							<w xml:id="SE-001-206">baffi</w>
 							<w xml:id="SE-001-207">rossicci</w>
 							<pc xml:id="SE-001-207p">,</pc>
+							<w xml:id="SE-001-207.1"/>
 							<w xml:id="SE-001-208">la</w>
 							<w xml:id="SE-001-209">faccia</w>
+							<w xml:id="SE-001-209.1"/>
 							<w xml:id="SE-001-210">disfatta</w>
 							<pc xml:id="SE-001-210p">,</pc>
 							<w xml:id="SE-001-211">d’una</w>
@@ -652,15 +656,68 @@
 						<rdg wit="#SE_LU #SE_BEM" type="orthographic">avventore</rdg>
 
 					</app>
-					<app from="SE-001-194.1">
+					<app from="#SE-001-194.1">
 						<lem wit="#SE_Riv1 #SE_Riv2 #SE_Riv3 #SE_LU"/>
-						<rdg wit="BEM" type="substantive">
+						<rdg wit="#SE_BEM" type="substantive">
 							<p />
 						</rdg>
 					</app> 
 					<app from="#SE-001-196">
 						<lem wit="#SE_Riv1 #SE_Riv2 #SE_LU">costui</lem>
 						<rdg wit="#SE_Riv3 #SE_BEM" type="omissio"></rdg>
+					</app>
+					<app from="#SE-001-199">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_Riv3">sui</lem>
+						<rdg wit="#SE_LU #SE_BEM" type="orthographic">su i</rdg>
+					</app>
+					<app from="#SE-001-200.1">
+						<lem wit="#SE_Riv1 #SE_LU #SE_BEM"/>
+						<rdg wit="#SE_Riv-2 #SE_Riv-3" type="substantive">
+							<add>all'incirca</add>
+						</rdg>
+					</app>
+					<app from="#SE-001-203.1">
+						<lem wit="#SE_Riv1 #SE_Riv-2 #SE_LU #SE_BEM"/>
+						<rdg wit="#SE_Riv-3" type="substantive">
+							<add>coi</add>
+						</rdg>
+					</app>
+					<app from="#SE-001-206">
+						<lem wit="#SE_Riv1 #SE_Riv-2">baffi</lem>
+						<rdg wit="#SE_Riv-3 #SE_LU #SE_BEM" type="substantive">baffetti</rdg>
+					</app>
+					<app from="#SE-001-207.1">
+						<lem wit="#SE_Riv1 #SE_Riv-2"/>
+						<rdg wit="#SE_Riv-3" type="substantive">
+							radi e spioventi
+						</rdg>
+						<rdg wit="#SE_LU #SE_BEM" type="substantive">radi, spioventi
+						</rdg>
+					</app>
+					<app from="#SE-001-209.1">
+						<lem wit="#SE_Riv1 #SE_Riv-2 #SE_BEM"/>
+						<rdg wit="#SE_Riv-3 #SE_LU" type="substantive">
+							pallida,
+						</rdg>
+					</app>
+					<app from="#SE-001-210">
+						<lem wit="#SE_Riv1 #SE_Riv-2 #SE_Riv-3 #SE_LU">disfatta</lem>
+						<rdg wit="#SE_BEM" type="substantive">
+							pallida
+						</rdg>
+					</app>
+					<app from="SE-001-210p">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_Riv3 #SE_LU">,</lem>
+					<rdg wit="#SE_Riv-2 #SE_BEM" type="punctuation"> </rdg>
+					</app>
+					<app from="#SE-001-211" to="#SE-001-213">
+						<lem wit="#SE_Riv1 #SE_Riv2"> d’una citrinità malaticcia</lem>
+						<rdg wit="#SE_Riv3 #SE_LU #SE_BEM" type="omissio"/>
+					</app>
+					<app from="#SE-001-213p">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_LU">,</lem>
+						<rdg wit="#SE_Riv3">[</rdg>
+						<rdg wit="#SE_BEM">e</rdg>
 					</app>
 				</listApp>
 			</listApp>
