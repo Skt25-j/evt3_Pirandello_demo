@@ -392,7 +392,7 @@
 							<w xml:id="SE-001-252">il</w>
 							<w xml:id="SE-001-253">mento</w>
 							<pc xml:id="SE-001-253p">.</pc>
-					prova 	</p>
+						</p>
 					</div>
 				</body>
 			</text>
@@ -658,6 +658,10 @@
 							<p />
 						</rdg>
 					</app> 
+					<app from="#SE-001-196">
+						<lem wit="#SE_Riv1 #SE_Riv2 #SE_LU">costui</lem>
+						<rdg wit="#SE_Riv3 #SE_BEM" type="omissio"></rdg>
+					</app>
 				</listApp>
 			</listApp>
 			<listApp corresp="Le_Nonne">
